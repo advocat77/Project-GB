@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    min-height: 75px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left__header {
+    display: flex;
+  }
+  
+  .right__header {
+    display: flex;
+  }
+  
+  .logo {
+    margin: 18px 16px 19px 231px;
+  }
+  
+  .lupa {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top {
+    display: flex;
+  }
+  
+  .top__text {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .rightside {
+    position: relative;
+    display: flex;
+    width: 50vw;
+  }
+  
+  .rightside::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 92px;
+    margin: 290px 16px 382px 63px;
+    background-color: #F16D7F;
+    position: absolute;
+  }
+  
+  .brand {
+    font-size: 48px;
+  }
+  
+  .top__text {
+    position: absolute;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 53px;
+    width: 54%;
+    margin: 291px 174px 366px 88px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .form1 {
+    margin-top: 28px;
+    margin-left: 41px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+  }
+  
+  .form2 {
+    position: relative;
+    margin: 30px 25px 22px;
+  }
+  
+  .menu__list, .menu-link {
+    list-style-type: none;
+  }
+  
+  .menu {
+    position: absolute;
+    display: none;
+    background-color: floralwhite;
+    height: 727px;
+    width: 130px;
+    margin: 23px 0px 0px 38px;
+    padding: 37px 0 0 47px
+  }
+  
+  .category__menu {
+    list-style-type: none;
+  
+  }
+  
+  .form2:hover .menu {
+    display: block;
+  }
+  
+  .form3 {
+    margin: 26px 25px 20px 25px;
+  }
+  
+  .form4 {
+    margin: 26px 20px 20px 25px;
+  }
+  
+  .top {
+    height: 764px;
+    width: 100%;
+    background-color: #F1E4E6;
+  }
+  
+  .photo {
+    background-image: url(IMG/Layer_57-removebg-preview\ 1.svg);
+    width: 50vw;
+    height: 100%;
+    background-position: left -96px bottom;
+    display: block;
+  }
+  
+  .navigation {
+    width: 13%;
+    height: 100%;
+  }
+  
+  .ul__menu {
+    list-style: none;
+  } 
+  
+  .menu-link {
+    text-decoration: none;
+  }
+  
+  .top__menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+  }
+  
+  .top__menu__footer {
+    padding-top: 30px;
+  }
+  
+  .top__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .txt {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .top__item:hover .top__link {
+    filter: brightness(30%);
+  }
+  
+  .txt__top {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFF;
+  }
+  
+  .txt__end {
+    text-align: center;
+    color: #F16D7F;
+  }
+  
+  .end__menu {
+    position: relative;
+    top: 30px;
+  }
+  
+  .item__text {
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 48px;
+  }
+  
+  .item__box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    margin-bottom: 30px;
+  }
+  
+  .item__link {
+    display: block;
+    text-decoration: none;
+  }
+  
+  .top__item__desc {
+    display: flex;
+    align-items: center;
+  }
+  
+  .txt__box {
+    max-width: 360px;
+  }
+  
+  .item__desc {
+    padding: 18px;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  
+  .p__text {
+    font-style: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    padding: 12px 28px 6px 18px;
+  }
+  
+  .item__price {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    left: 39.9%;
+    right: 56.82%;
+    top: 55.36%;
+    bottom: 44.15%;
+    padding: 18px;
+  }
+  
+  .item:hover .item__img {
+    filter: brightness(30%);
+  }
+  
+  .fa-instagram {
+    background-color: #F16D7F;
+    font-size: 50px;
+  }
+  
+  .fa-instagram:hover {
+    background-color: #fff;
+    font-size: 50px;
+  }
+  
+  
+  
+  
